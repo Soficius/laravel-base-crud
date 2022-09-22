@@ -8,6 +8,7 @@
                     <h3>{{ $comic->title }}</h3>
                 </a>
             </div>
+
         @empty
         @endforelse
     </div>
