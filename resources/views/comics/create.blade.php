@@ -6,19 +6,19 @@
             @csrf
             <div class="p-1">
                 <label for="name">Title</label>
-                <input type="text" id="name" placeholder="Titolo Comic" name='name'>
+                <input type="text" id="name" placeholder="Titolo Comic" name='title'>
             </div>
             <div class="p-1">
                 <label for="number">Price</label>
-                <input type="number" id="number" placeholder="prezzo" name='number' value="0">
+                <input type="number" id="number" placeholder="prezzo" name='price' value="0">
             </div>
             <div class="p-1">
                 <label for="serie">Series</label>
-                <input type="text" id="serie" placeholder="serie" name='serie'>
+                <input type="text" id="serie" placeholder="serie" name='series'>
             </div>
             <div class="p-1">
                 <label for="date">Sale date</label>
-                <input type="date" id="date" placeholder="date" name='date'>
+                <input type="date" id="date" placeholder="date" name='sale_date'>
             </div>
             <div class="p-1">
                 <label for="type">type</label>
@@ -30,7 +30,7 @@
             </div>
             <div class="p-1">
                 <label for="url "> URL del comic: </label>
-                <input type="url" name="url" placeholder="URL del comic">
+                <input type="url" name="thumb" placeholder="URL del comic">
             </div>
             <div>
                 <button type="submit">Salva</button>
