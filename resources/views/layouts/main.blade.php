@@ -13,6 +13,9 @@
 </head>
 
 <body>
+    <header class="flex-c-row center p-1">
+        @include('includes.header')
+    </header>
     <main>
         @yield('content')
     </main>
