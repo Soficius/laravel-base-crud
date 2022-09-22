@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  padding: 2em 8em;
+}
+
+main {
+  background-color: black;
+  min-height: 100px;
+}
+main .box {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .box .card {
+  flex-basis: 16.6666666667%;
+  border: 1em solid transparent;
+}
+main .box .card h3 {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.details {
+  margin-top: 1em;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.small-container {
+  padding: 4em 16em;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-47 {
+  width: 47%;
+}
+
+.ptb-1 {
+  padding: 1em 0;
+}
+
+.p-1 {
+  padding: 1em;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.flex-c-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-c-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
+
+.small-c-plr {
+  padding: 0em 16em;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.cta-pad-normal {
+  background-image: url("../images/cta-icons.png");
+  background-position: 0 0;
+  width: 37px;
+  height: 37px;
+}
+
+.cta-comics-normal {
+  background-image: url("../images/cta-icons.png");
+  background-position: 37px 0;
+  width: 37px;
+  height: 37px;
+}
+
+.cta-pointer-normal {
+  background-image: url("../images/cta-icons.png");
+  background-position: 74px 0;
+  width: 37px;
+  height: 37px;
+}
+
+.cta-shirt-normal {
+  background-image: url("../images/cta-icons.png");
+  background-position: 111px 0;
+  width: 37px;
+  height: 37px;
+}
+
+.border-top {
+  border-top: 1px solid gray;
+}
+
+.border-lr {
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.border-r {
+  border-right: 1px solid gray;
+}

@@ -13,7 +13,9 @@
 </head>
 
 <body>
-    @yield('content')
+    <main>
+        @yield('content')
+    </main>
 </body>
 
 </html>

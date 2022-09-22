@@ -1,0 +1,18 @@
+main {
+    background-color: black;
+    min-height: 100px;
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            flex-basis: calc(100%/6);
+            border: 1em solid transparent;
+
+            h3 {
+                color: white;
+            }
+        }
+    }
+}
