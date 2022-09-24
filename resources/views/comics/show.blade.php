@@ -6,6 +6,12 @@
             <p class="w-75">{{ $comic->description }}</p>
             <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
         </div>
+        <a href="{{ route('comics.edit', $comic->id) }}" class="blue border rounded p-1">modifica comic</a>
+        <form action="{{ route('comics.destroy', $comic->id) }}" method="POST" class="pt-2">
+            @csrf
+            @method('DELETE')
+            <button type="submit" class="p-1 rounded">Elimina comic</button>
+        </form>
     </div>
     <div class="small-container bg-gray">
         <div class="wrap">
