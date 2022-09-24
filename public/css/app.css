@@ -6,6 +6,7 @@
 
 img {
   max-width: 100%;
+  width: 192px;
 }
 
 a {
@@ -57,7 +58,7 @@ main .box {
   flex-wrap: wrap;
 }
 main .box .card {
-  flex-basis: 16.6666666667%;
+  width: 16.6666666667%;
   border: 1em solid transparent;
 }
 main .box .card h3 {
