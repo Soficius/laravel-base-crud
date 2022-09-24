@@ -49,6 +49,10 @@ ul {
   margin: 1em;
 }
 
+.blue {
+  color: blue;
+}
+
 main {
   background-color: black;
   min-height: 100px;
