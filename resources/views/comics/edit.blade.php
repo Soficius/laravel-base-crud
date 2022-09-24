@@ -2,8 +2,9 @@
 @section('content')
     <div class="container bg-blu flex-c-col align-center">
         <h3 class="p-1">Modifica Comic</h3>
-        <form action="{{ route('comics.store') }}" method="POST">
+        <form action="{{ route('comics.update', $comic->id) }}" method="POST">
             @csrf
+            @method('PUT')
             <div class="p-1">
                 <label for="name">Title</label>
                 <input type="text" id="name" placeholder="Titolo Comic" name='title' value="{{ $comic->title }}">
