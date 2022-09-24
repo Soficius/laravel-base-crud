@@ -57,6 +57,14 @@ ul {
   padding-top: 2em;
 }
 
+.green {
+  color: green;
+}
+
+.width-400 {
+  width: 400px;
+}
+
 main {
   background-color: black;
   min-height: 100px;

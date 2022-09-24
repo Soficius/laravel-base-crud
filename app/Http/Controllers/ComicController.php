@@ -44,7 +44,7 @@ class ComicController extends Controller
         // salvo
         $comic->save();
 
-        return redirect()->route('comics.index');
+        return redirect()->route('comics.index')->with('delete', "$comic->title creato con successo");
     }
 
     /**
@@ -98,6 +98,6 @@ class ComicController extends Controller
     {
         $comic = Comic::findOrFail($id);
         $comic->delete();
-        return redirect()->route('comics.index');
+        return redirect()->route('comics.index')->with('delete', "$comic->title eliminato con successo");
     }
 }
